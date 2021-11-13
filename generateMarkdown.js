@@ -28,8 +28,7 @@ const badgesDescription = {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  let licenseChoice = data.license_information.toString()
-  console.log(licenseChoice);
+  
   return `# ${data.project_title}
 
 ## Badges
@@ -59,7 +58,7 @@ ${data.contributions}
 ${data.test_information}
 
 ## License
-[License Information Found Here] (${badgesDescription[data.license_information]})
+[License Information Found Here](${badgesDescription[data.license_information]})
 
 ## Questions
 GitHub: https://github.com/${data.github}\n

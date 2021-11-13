@@ -21,7 +21,7 @@ Description
 
 
 ## Installation
-Installation
+Install
 
 ## Usage
 Usage
@@ -33,7 +33,7 @@ Contributions
 Test
 
 ## License
-[License Information Found Here] (https://choosealicense.com/licenses/mit/)
+[License Information Found Here](https://choosealicense.com/licenses/mit/)
 
 ## Questions
 GitHub: https://github.com/jpspann91
