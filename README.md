@@ -42,4 +42,4 @@ Contact Me: joespann91@gmail.com
 
 
 ## Video Walkthrough
-THIS TEXT WILL BE REPLACED WITH A URL TO THE VIDEO WALKTHROUGH
+https://watch.screencastify.com/v/cIQLYp7wNGKH9tvtarwY
