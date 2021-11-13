@@ -47,7 +47,7 @@ ${data.description}
 -[Questions](#questions)\n
 
 ## Installation
-${data.install_instrcutions}
+${data.install_instructions}
 
 ## Usage
 ${data.usage_information}
@@ -59,7 +59,7 @@ ${data.contributions}
 ${data.test_information}
 
 ## License
-![More License information here](${badgesDescription[data.license_information]})
+![More License information here]${badgesDescription[data.license_information]}
 
 ## Questions
 GitHub: https://github.com/${data.github}\n
