@@ -36,11 +36,11 @@ const questions = [
         message: 'Enter in any test information.',
       },
       {
-        type: 'checkbox',
-        name: 'license_information',
+        type: 'list',
         message: 'Choose a license',
-        choices: ["MIT", "BSD", "GPL", "None"],
-    },
+        choices: ["GNU AGPLv3", "GNU GPLv3", "GNU LGPLv3", "Mozilla Public License 2.0", "Apache License 2.0","MIT License","Boost Software License 1.0", "The Unlicense"],
+        name: 'license_information'
+      },
       {
         type: 'input',
         name: 'github',

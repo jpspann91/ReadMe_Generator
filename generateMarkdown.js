@@ -1,58 +1,33 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {
-  if(license === 'MIT'){
-    return '![MIT]';
-
-  }else if(license === "BSD"){
-    return '![BSD]';
-  }
-  else if(license === "GPL"){
-    return '![GPL]';
-  }
-  else {
-    return 'No License available';
-  }
-}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-  if(license === 'MIT'){
-    return '(https://choosealicense.com/licenses/mit/)';
-
-  }else if(license === "BSD"){
-    return '(https://choosealicense.com/licenses/bsd-2-clause/)';
-  }
-  else if(license === "GPL"){
-    return '(https://choosealicense.com/licenses/bsd-2-clause/)';
-  }
-  else {
-    return '';
-  }
-}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-
-}
+const badges = {
+  "GNU AGPLv3": "https://img.shields.io/badge/License-AGPL_v3-blue.svg",
+  "GNU GPLv3": "https://img.shields.io/badge/License-GPLv3-blue.svg",
+  "GNU LGPLv3": "https://img.shields.io/badge/License-LGPL_v3-blue.svg",
+  "Mozilla Public License 2.0":
+    "https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg",
+  "Apache License 2.0":
+    "https://img.shields.io/badge/License-Apache_2.0-blue.svg",
+  "MIT License": "https://img.shields.io/badge/License-MIT-yellow.svg",
+  "Boost Software License 1.0":
+    "https://img.shields.io/badge/License-Boost_1.0-lightblue.svg",
+  "The Unlicense": "https://img.shields.io/badge/license-Unlicense-blue.svg",
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  const licenseChoice = data.license_information.toString()
+  let licenseChoice = data.license_information.toString()
+  console.log(licenseChoice);
   return `# ${data.project_title}
 
 ## Description
 ${data.description}
 
 ## Table of Contents
--[Installation](#installation) \n
--[Usage](#usage)\n
--[Contributions](#contributions)\n
--[Test](#test)\n
--[License](#license)\n
--[Questions](#questions)\n
+-[Installation](#installation)
+-[Usage](#usage)
+-[Contributions](#contributions)
+-[Test](#test)
+-[License](#license)
+-[Questions](#questions)
 
 ## Installation
 ${data.install_instrcutions}
@@ -67,9 +42,7 @@ ${data.contributions}
 ${data.test_information}
 
 ## License
-${renderLicenseBadge(license)} ${renderLicenseLink(licenseChoice)} 
-
-${renderLicenseSection(license)}
+![${data.license_information}]${badges[data.license_information]}
 
 ## Questions
 GitHub: https://github.com/${data.github}\n
