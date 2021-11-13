@@ -42,4 +42,6 @@ Contact Me: joespann91@gmail.com
 
 
 ## Video Walkthrough
+[![Watch the video](https://img.youtube.com/vi/Fk9pV7N8CXc/maxresdefault.jpg)](https://youtu.be/Fk9pV7N8CXc)
+
 https://watch.screencastify.com/v/cIQLYp7wNGKH9tvtarwY
