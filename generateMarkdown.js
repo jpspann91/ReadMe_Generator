@@ -42,7 +42,7 @@ ${data.contributions}
 ${data.test_information}
 
 ## License
-![${data.license_information}]${badges[data.license_information]}
+![${data.license_information}](${badges[data.license_information]})
 
 ## Questions
 GitHub: https://github.com/${data.github}\n

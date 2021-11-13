@@ -1,7 +1,7 @@
-# Tester
+# ReadMe Generator
 
 ## Description
-thids is a description
+Easy application to make it much more simple to generate readme files
 
 ## Table of Contents
 -[Installation](#installation)
@@ -15,16 +15,16 @@ thids is a description
 undefined
 
 ## Usage
-Soemthing
+To create ReadMe files with a simple line of code in your cmd line
 
 ## Contributions
-Joe Spann
+Joseph Spann
 
 ## Test
-Nope
+No test information needed
 
 ## License
-![MIT License]https://img.shields.io/badge/License-MIT-yellow.svg
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Questions
 GitHub: https://github.com/jpspann91
