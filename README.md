@@ -1,33 +1,45 @@
-# ReadMe Generator
+# Test
+
+## Badges
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-Easy application to make it much more simple to generate readme files
+No thank you
 
 ## Table of Contents
 -[Installation](#installation)
+
 -[Usage](#usage)
+
 -[Contributions](#contributions)
+
 -[Test](#test)
+
 -[License](#license)
+
 -[Questions](#questions)
+
 
 ## Installation
 undefined
 
 ## Usage
-To create ReadMe files with a simple line of code in your cmd line
+Readme
 
 ## Contributions
-Joseph Spann
+Joe Spann
 
 ## Test
-No test information needed
+Testing
 
 ## License
-![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![More License information here](https://choosealicense.com/licenses/mit/)
 
 ## Questions
 GitHub: https://github.com/jpspann91
 
 Contact Me: joespann91@gmail.com
 
+
+## Video Walkthrough
+THIS TEXT WILL BE REPLACED WITH A URL TO THE VIDEO WALKTHROUGH
