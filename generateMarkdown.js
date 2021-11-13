@@ -1,3 +1,4 @@
+//badges object to hold the badge images and names
 const badges = {
   "GNU AGPLv3": "https://img.shields.io/badge/License-AGPL_v3-blue.svg",
   "GNU GPLv3": "https://img.shields.io/badge/License-GPLv3-blue.svg",
@@ -11,7 +12,7 @@ const badges = {
     "https://img.shields.io/badge/License-Boost_1.0-lightblue.svg",
   "The Unlicense": "https://img.shields.io/badge/license-Unlicense-blue.svg",
 };
-
+//badges description object that holds a link to a page for more information on the license
 const badgesDescription = {
   "GNU AGPLv3": "https://choosealicense.com/licenses/agpl-3.0/",
   "GNU GPLv3": "https://choosealicense.com/licenses/gpl-3.0/",
@@ -58,7 +59,7 @@ ${data.contributions}
 ${data.test_information}
 
 ## License
-[License Information Found Here](${badgesDescription[data.license_information]}){:target="_blank" rel="noopener"}
+[License Information Found Here](${badgesDescription[data.license_information]})
 
 ## Questions
 GitHub: https://github.com/${data.github}\n
