@@ -59,7 +59,7 @@ ${data.contributions}
 ${data.test_information}
 
 ## License
-![More License information here]${badgesDescription[data.license_information]}
+[License Information Found Here] (${badgesDescription[data.license_information]})
 
 ## Questions
 GitHub: https://github.com/${data.github}\n

@@ -33,7 +33,7 @@ Contributions
 Test
 
 ## License
-![More License information here]https://choosealicense.com/licenses/mit/
+[License Information Found Here] (https://choosealicense.com/licenses/mit/)
 
 ## Questions
 GitHub: https://github.com/jpspann91
