@@ -30,10 +30,10 @@ Usage
 Contributions
 
 ## Test
-Test
+Testing
 
 ## License
-[License Information Found Here](https://choosealicense.com/licenses/mit/)
+[License Information Found Here](https://choosealicense.com/licenses/mit/){:target="_blank" rel="noopener"}
 
 ## Questions
 GitHub: https://github.com/jpspann91

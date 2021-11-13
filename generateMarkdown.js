@@ -58,7 +58,7 @@ ${data.contributions}
 ${data.test_information}
 
 ## License
-[License Information Found Here](${badgesDescription[data.license_information]})
+[License Information Found Here](${badgesDescription[data.license_information]}){:target="_blank" rel="noopener"}
 
 ## Questions
 GitHub: https://github.com/${data.github}\n
