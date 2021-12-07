@@ -51,6 +51,16 @@ const questions = [
         name: 'email',
         message: 'What is your email address?',
       },
+      { 
+        type: 'input',
+        name: 'screencastify_link',
+        message: 'Enter screencastify link'
+      },
+      {
+        type: 'input',
+        name: 'youtube_link',
+        message: "Enter youtube link for video walkthrough"
+      }
 ];
 
 // TODO: Create a function to write README file
