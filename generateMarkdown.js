@@ -29,6 +29,11 @@ const badgesDescription = {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  const linkToArray = data.youtube_link.split('');
+  const equalIndex = linkToArray.indexOf('=');
+  const linkHook = linkToArray.splice(equalIndex + 1);
+  const arrayToString = linkHook.join('');
+  
   
   return `# ${data.project_title}
 
@@ -66,7 +71,9 @@ GitHub: https://github.com/${data.github}\n
 Contact Me: ${data.email}\n
 
 ## Video Walkthrough
-THIS TEXT WILL BE REPLACED WITH A URL TO THE VIDEO WALKTHROUGH
+[Screencastify Link](${data.screencastify_link})
+
+[![Watch the video](https://img.youtube.com/vi/${arrayToString}/maxresdefault.jpg)](https://youtu.be/${arrayToString})
 `;
 }
 
